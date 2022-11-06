@@ -11,11 +11,7 @@ workspace "MyEngine"
         "Release" 
     }
 
-    flags
-    {
-        "MultiProcessorCompile",
-        "LinkTimeOptimization"
-    }
+    flags "MultiProcessorCompile"
 
     filter "configurations:Debug"
         defines "_DEBUG"
@@ -27,6 +23,7 @@ workspace "MyEngine"
         runtime "Release"
         optimize "Speed"
         symbols "Off"
+        flags "LinkTimeOptimization"
 
         
 
