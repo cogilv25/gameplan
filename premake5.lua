@@ -1,4 +1,4 @@
-workspace "MyEngine"
+workspace "Gameplan"
     startproject "MyGame"
     targetdir "bin/%{cfg.buildcfg}"
     objdir "obj/%{cfg.buildcfg}"
